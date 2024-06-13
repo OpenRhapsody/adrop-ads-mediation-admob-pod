@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/AdropAdsMediationAdmob</key>
 		<data>
-		1fTYu1Z9auSTI6BOKDS7EfHLxD0=
+		MOmWGv7dwEfWRyMd+pUzjhfuRfc=
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Headers/AdropAdsAdmobMediationAdapter.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Info.plist</key>
 		<data>
-		WSXDHP9sO0ZgfD54IBuHVAi6Bjs=
+		qGVU7X8auXJrdA93YEE0SdKJKBw=
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		RsvorswOhUgl9ewMaFWUWlhSF1Q=
+		1Kb4md2tZ55eE5yBrEhroFK7Li4=
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tbXDxlKItuJYSMUEumaMkFpxIkM=
+		vwGAgeO7K73P1Oljt37zOo17580=
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RsvorswOhUgl9ewMaFWUWlhSF1Q=
+		1Kb4md2tZ55eE5yBrEhroFK7Li4=
 		</data>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/AdropAdsMediationAdmob</key>
 		<data>
-		w50QZN1X9QYrFIbLiLvV1/G7rf0=
+		ZOpJlXYPm1cNb/AXhORcdIlcdcM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Headers/AdropAdsAdmobMediationAdapter.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Info.plist</key>
 		<data>
-		ljx/Z7DQ4X4SIVpSpN0jkqlVrdo=
+		4NNND+QHi9XebfxxWM1zVOyea60=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/nfw01NPmyTd7VFHE2CgDyN8jKI=
+		vfxXmpbsu+nYTwt8cSCSVTgxqhQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ckZmNjXUpClF6UrlGAxk/GumoN4=
+		csA5S/B71swULDO5dj4iB0pWlfw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/nfw01NPmyTd7VFHE2CgDyN8jKI=
+		vfxXmpbsu+nYTwt8cSCSVTgxqhQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		R0HfBIZEh1mfNNVdF+dDl55ORyw=
+		1dXNv+Kwdf0css4e4DUhppQjnZc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vScQ0yKFnjqDjQ2PIRXSqOort1I=
+		yXFDIeFN9zqhabaUtZBliYnBigk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		R0HfBIZEh1mfNNVdF+dDl55ORyw=
+		1dXNv+Kwdf0css4e4DUhppQjnZc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/_CodeSignature/CodeResources</key>
 		<data>
-		LNKg+3W5bKTUsOPZ/Z1YEYEbJ70=
+		6tlWW+BULBqK/qy6vWwinoWgxkI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1fTYu1Z9auSTI6BOKDS7EfHLxD0=
+			MOmWGv7dwEfWRyMd+pUzjhfuRfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			MtkyV2RSs5KspGZb96E8qmxuWIggNrJn2DvX107pttc=
+			laUDyrgWInssYD9HYVcvsRGTHtgp0P7NltoZw/Efa+Q=
 			</data>
 		</dict>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Headers/AdropAdsAdmobMediationAdapter.h</key>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WSXDHP9sO0ZgfD54IBuHVAi6Bjs=
+			qGVU7X8auXJrdA93YEE0SdKJKBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6WcBI47QKzuTX3icDT65N0SZkQ3srdE/+cnU4IfMM4=
+			0DqsdGmJPMPOEywRaVVdYZK/+diZeIka7jap8WJH9Bs=
 			</data>
 		</dict>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -139,33 +139,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RsvorswOhUgl9ewMaFWUWlhSF1Q=
+			1Kb4md2tZ55eE5yBrEhroFK7Li4=
 			</data>
 			<key>hash2</key>
 			<data>
-			L8iEYv4qdzXKU29v4djtIOoP3KunjbEPJCKnwMetidM=
+			tCN5wOowtOeSIsxMbHu/zR/kH89nBa7sMRKKzEsLJGY=
 			</data>
 		</dict>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tbXDxlKItuJYSMUEumaMkFpxIkM=
+			vwGAgeO7K73P1Oljt37zOo17580=
 			</data>
 			<key>hash2</key>
 			<data>
-			/eRoGjeBgmqSPpgFQbDAWVym2b21acaFtZq4URl2MuM=
+			ztUm3UHZi+8amiSbnJD+zXV+V04Uf5DDmBAXQSLQmO8=
 			</data>
 		</dict>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RsvorswOhUgl9ewMaFWUWlhSF1Q=
+			1Kb4md2tZ55eE5yBrEhroFK7Li4=
 			</data>
 			<key>hash2</key>
 			<data>
-			L8iEYv4qdzXKU29v4djtIOoP3KunjbEPJCKnwMetidM=
+			tCN5wOowtOeSIsxMbHu/zR/kH89nBa7sMRKKzEsLJGY=
 			</data>
 		</dict>
 		<key>ios-arm64/AdropAdsMediationAdmob.framework/PrivacyInfo.xcprivacy</key>
@@ -183,11 +183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w50QZN1X9QYrFIbLiLvV1/G7rf0=
+			ZOpJlXYPm1cNb/AXhORcdIlcdcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rl4Z0JgIJXR3UT+ULE0eXaP5GZpUnLT4Nryj8AWp4bw=
+			3QkyTF1KsP5TlrqCV8UoI3lNsHyPh6ugZjhGvvBCNxM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Headers/AdropAdsAdmobMediationAdapter.h</key>
@@ -205,11 +205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ljx/Z7DQ4X4SIVpSpN0jkqlVrdo=
+			4NNND+QHi9XebfxxWM1zVOyea60=
 			</data>
 			<key>hash2</key>
 			<data>
-			1q7BvMapSn7xm1fedton4IJzG0UpThNrRf/gG8Ppv3M=
+			jC3wu+SMIdkPSuTBtGTHbr5+Ktf/oU2PI2q6oTZXGRk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -227,33 +227,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/nfw01NPmyTd7VFHE2CgDyN8jKI=
+			vfxXmpbsu+nYTwt8cSCSVTgxqhQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxCzLOgU8r73ANob8qihvjPE5YCVMlO5CBhlXaEmAdA=
+			NnIvkyJgCtlVJ0GrJOAxTxJfTRFvqYbLZ3kY8CIScLk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ckZmNjXUpClF6UrlGAxk/GumoN4=
+			csA5S/B71swULDO5dj4iB0pWlfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oNzeOj31ZV3nVw+82otmmtlcoYOgDYUP1v0YUMnhCpo=
+			qqTaK+8wGVPgYu8TpCNM8L3X0I3BtDSXftAglSa1Nes=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/nfw01NPmyTd7VFHE2CgDyN8jKI=
+			vfxXmpbsu+nYTwt8cSCSVTgxqhQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxCzLOgU8r73ANob8qihvjPE5YCVMlO5CBhlXaEmAdA=
+			NnIvkyJgCtlVJ0GrJOAxTxJfTRFvqYbLZ3kY8CIScLk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -271,33 +271,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R0HfBIZEh1mfNNVdF+dDl55ORyw=
+			1dXNv+Kwdf0css4e4DUhppQjnZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VAr9iH2+tRIT/gf/dMN2Q87ho1qEKQoh28AUaHnGkdM=
+			CCE/6KxvT6bYejRcfQnBwmnYK3JjvAuPpQ/imLpwV54=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vScQ0yKFnjqDjQ2PIRXSqOort1I=
+			yXFDIeFN9zqhabaUtZBliYnBigk=
 			</data>
 			<key>hash2</key>
 			<data>
-			bSsvIh3Px2iCGEI2ADoYp8+cuQhHLxCuFcICIfMAcTY=
+			gFvn40hAeO14TOyNICeP/FSVHpmqWaxGiZfnHOPDuZI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/Modules/AdropAdsMediationAdmob.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R0HfBIZEh1mfNNVdF+dDl55ORyw=
+			1dXNv+Kwdf0css4e4DUhppQjnZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VAr9iH2+tRIT/gf/dMN2Q87ho1qEKQoh28AUaHnGkdM=
+			CCE/6KxvT6bYejRcfQnBwmnYK3JjvAuPpQ/imLpwV54=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsMediationAdmob.framework/PrivacyInfo.xcprivacy</key>
@@ -315,11 +315,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LNKg+3W5bKTUsOPZ/Z1YEYEbJ70=
+			6tlWW+BULBqK/qy6vWwinoWgxkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			PZFlfNjIgR/Z703DX14qHp1rTY9j0dcaU89UnwQjoYI=
+			umFaNNzDt+6orivChbIFywGCxG36919YrWYdADQgcek=
 			</data>
 		</dict>
 	</dict>
