@@ -1,0 +1,481 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsMediationAdmob",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsMediationAdmob"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdropGADMediation",
+        "printedName": "AdropGADMediation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(py)view",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC4viewSo6UIViewCvp",
+            "moduleName": "AdropAdsMediationAdmob",
+            "isOpen": true,
+            "objc_name": "view",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(im)view",
+                "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC4viewSo6UIViewCvg",
+                "moduleName": "AdropAdsMediationAdmob",
+                "isOpen": true,
+                "objc_name": "view",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADVersionNumber",
+                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(cm)adapterVersion",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC14adapterVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "AdropAdsMediationAdmob",
+            "static": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adSDKVersion",
+            "printedName": "adSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADVersionNumber",
+                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(cm)adSDKVersion",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC12adSDKVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "AdropAdsMediationAdmob",
+            "static": true,
+            "objc_name": "adSDKVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkExtrasClass",
+            "printedName": "networkExtrasClass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any GoogleMobileAds.GADAdNetworkExtras.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any GoogleMobileAds.GADAdNetworkExtras.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdNetworkExtras",
+                        "printedName": "GoogleMobileAds.GADAdNetworkExtras",
+                        "usr": "c:objc(pl)GADAdNetworkExtras"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(cm)networkExtrasClass",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC18networkExtrasClassSo012GADAdNetworkG0_pXpSgyFZ",
+            "moduleName": "AdropAdsMediationAdmob",
+            "static": true,
+            "objc_name": "networkExtrasClass",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpWith",
+            "printedName": "setUpWith(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationServerConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationServerConfiguration",
+                "usr": "c:objc(cs)GADMediationServerConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(cm)setUpWithConfiguration:completionHandler:",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC9setUpWith_17completionHandlerySo0E19ServerConfigurationC_ys5Error_pSgctFZ",
+            "moduleName": "AdropAdsMediationAdmob",
+            "static": true,
+            "objc_name": "setUpWithConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdropGADMediation",
+                "printedName": "AdropAdsMediationAdmob.AdropGADMediation",
+                "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(im)init",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationCACycfc",
+            "moduleName": "AdropAdsMediationAdmob",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationBannerAdConfiguration",
+                "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationBannerAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.GADMediationBannerAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationBannerAd",
+                            "printedName": "any GoogleMobileAds.GADMediationBannerAd",
+                            "usr": "c:objc(pl)GADMediationBannerAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(im)loadBannerForAdConfiguration:completionHandler:",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC10loadBanner3for17completionHandlerySo0eG15AdConfigurationC_So0egK13EventDelegate_pSgSo0egK0_pSg_s5Error_pSgtctF",
+            "moduleName": "AdropAdsMediationAdmob",
+            "isOpen": true,
+            "objc_name": "loadBannerForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdReceived",
+            "printedName": "onAdReceived(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropBanner",
+                "printedName": "AdropAds.AdropBanner",
+                "usr": "c:@M@AdropAds@objc(cs)AdropBanner"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(im)onAdReceived:",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC12onAdReceivedyy0aB00A6BannerCF",
+            "moduleName": "AdropAdsMediationAdmob",
+            "isOpen": true,
+            "objc_name": "onAdReceived:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdFailedToReceive",
+            "printedName": "onAdFailedToReceive(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropBanner",
+                "printedName": "AdropAds.AdropBanner",
+                "usr": "c:@M@AdropAds@objc(cs)AdropBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropErrorCode",
+                "printedName": "AdropAds.AdropErrorCode",
+                "usr": "c:@M@AdropAds@E@AdropErrorCode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(im)onAdFailedToReceive::",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC19onAdFailedToReceiveyy0aB00A6BannerC_AE0A9ErrorCodeOtF",
+            "moduleName": "AdropAdsMediationAdmob",
+            "isOpen": true,
+            "objc_name": "onAdFailedToReceive::",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation",
+        "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC",
+        "moduleName": "AdropAdsMediationAdmob",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdropBannerDelegate",
+            "printedName": "AdropBannerDelegate",
+            "usr": "c:@M@AdropAds@objc(pl)AdropBannerDelegate",
+            "mangledName": "$s8AdropAds0A14BannerDelegateP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name AdropAdsMediationAdmob
+import AdropAds
+import GoogleMobileAds
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class AdropGADMediation : ObjectiveC.NSObject, GoogleMobileAds.GADMediationAdapter, GoogleMobileAds.GADMediationBannerAd {
+  @objc public var view: UIKit.UIView {
+    @objc get
+  }
+  @objc public static func adapterVersion() -> GoogleMobileAds.GADVersionNumber
+  @objc public static func adSDKVersion() -> GoogleMobileAds.GADVersionNumber
+  @objc public static func networkExtrasClass() -> (any GoogleMobileAds.GADAdNetworkExtras.Type)?
+  @objc public static func setUpWith(_ configuration: GoogleMobileAds.GADMediationServerConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAdapterSetUpCompletionBlock)
+  @objc required override dynamic public init()
+  @objc public func loadBanner(for adConfiguration: GoogleMobileAds.GADMediationBannerAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationBannerLoadCompletionHandler)
+  @objc deinit
+}
+extension AdropAdsMediationAdmob.AdropGADMediation : AdropAds.AdropBannerDelegate {
+  @objc dynamic public func onAdReceived(_ banner: AdropAds.AdropBanner)
+  @objc dynamic public func onAdFailedToReceive(_ banner: AdropAds.AdropBanner, _ errorCode: AdropAds.AdropErrorCode)
+}
