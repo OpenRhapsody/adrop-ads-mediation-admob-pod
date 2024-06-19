@@ -7,6 +7,11 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class AdropGADRequest : GoogleMobileAds.GADRequest, GoogleMobileAds.GADAdNetworkExtras {
+  @objc override dynamic public init()
+  @objc public init(unitId: Swift.String, testMode: Swift.Bool = false)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc public class AdropGADMediation : ObjectiveC.NSObject, GoogleMobileAds.GADMediationAdapter, GoogleMobileAds.GADMediationBannerAd {
   @objc public var view: UIKit.UIView {
     @objc get
@@ -21,5 +26,6 @@ import _SwiftConcurrencyShims
 }
 extension AdropAdsMediationAdmob.AdropGADMediation : AdropAds.AdropBannerDelegate {
   @objc dynamic public func onAdReceived(_ banner: AdropAds.AdropBanner)
+  @objc dynamic public func onAdImpression(_ banner: AdropAds.AdropBanner)
   @objc dynamic public func onAdFailedToReceive(_ banner: AdropAds.AdropBanner, _ errorCode: AdropAds.AdropErrorCode)
 }
