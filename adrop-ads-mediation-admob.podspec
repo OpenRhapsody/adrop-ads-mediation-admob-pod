@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AdropAdsMediationAdmob.xcframework'
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
-  s.dependency 'adrop-ads', '>= 0.5.2', '< 1.0.0'
+  s.dependency 'adrop-ads', '>= 0.5.3', '< 1.0.0'
 end
