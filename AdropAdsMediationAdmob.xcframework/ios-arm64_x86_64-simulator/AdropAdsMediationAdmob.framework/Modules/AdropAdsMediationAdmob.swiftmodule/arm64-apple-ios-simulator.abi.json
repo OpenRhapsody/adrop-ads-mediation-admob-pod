@@ -692,13 +692,13 @@
       "filePath": "\/Users\/leo\/Documents\/openrhapsody\/adrop\/adrop-ads-ios\/scripts\/AdropAds\/AdropAds\/AdropGADMediation.swift",
       "kind": "StringLiteral",
       "offset": 134,
-      "length": 15,
-      "value": "\"0.1.0-alpha.7\""
+      "length": 7,
+      "value": "\"0.1.0\""
     },
     {
       "filePath": "\/Users\/leo\/Documents\/openrhapsody\/adrop\/adrop-ads-ios\/scripts\/AdropAds\/AdropAds\/AdropGADMediation.swift",
       "kind": "BooleanLiteral",
-      "offset": 988,
+      "offset": 980,
       "length": 5,
       "value": "false"
     }
