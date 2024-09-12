@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-mediation-admob'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Adrop ads mediation admob'
   s.homepage         = 'https://adrop.io'
   
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AdropAdsMediationAdmob.xcframework'
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
-  s.dependency 'adrop-ads', '>= 0.5.3', '< 1.0.0'
+  s.dependency 'adrop-ads', '>= 0.6.8', '< 1.0.0'
 end
