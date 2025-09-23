@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-mediation-admob'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Adrop ads mediation admob'
   s.homepage         = 'https://adrop.io'
   
-  s.author           = { 'Martin' => 'martin@openrhapsody.com', 'Leo' => 'leo@openrhapsody.com', 'dev' => 'dev@openrhapsody.com' }
+  s.author           = { 'Leo' => 'leo@openrhapsody.com', 'dev' => 'dev@openrhapsody.com' }
   s.license          = { :type => 'CUSTOM (https://adrop.io)' }
   s.swift_version    = '5.0'
   s.platform         = :ios
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AdropAdsMediationAdmob.xcframework'
 
   s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
-  s.dependency 'adrop-ads', '>= 1.1.0', '< 1.2.0'
+  s.dependency 'adrop-ads', '>= 1.4.3', '< 2.0.0'
 end

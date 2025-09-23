@@ -27,5 +27,6 @@ import _SwiftConcurrencyShims
 extension AdropAdsMediationAdmob.AdropGADMediation : AdropAds.AdropBannerDelegate {
   @objc dynamic public func onAdReceived(_ banner: AdropAds.AdropBanner)
   @objc dynamic public func onAdImpression(_ banner: AdropAds.AdropBanner)
+  @objc dynamic public func onAdClicked(_ banner: AdropAds.AdropBanner)
   @objc dynamic public func onAdFailedToReceive(_ banner: AdropAds.AdropBanner, _ errorCode: AdropAds.AdropErrorCode)
 }
