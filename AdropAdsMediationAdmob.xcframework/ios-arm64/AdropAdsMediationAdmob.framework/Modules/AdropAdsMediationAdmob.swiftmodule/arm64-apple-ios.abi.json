@@ -98,10 +98,9 @@
           "ObjC",
           "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)GADRequest",
+        "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "GoogleMobileAds.GADRequest",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -228,8 +227,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GADVersionNumber",
-                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "name": "VersionNumber",
+                "printedName": "GoogleMobileAds.VersionNumber",
                 "usr": "c:@S@GADVersionNumber"
               }
             ],
@@ -253,8 +252,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GADVersionNumber",
-                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "name": "VersionNumber",
+                "printedName": "GoogleMobileAds.VersionNumber",
                 "usr": "c:@S@GADVersionNumber"
               }
             ],
@@ -279,17 +278,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any GoogleMobileAds.GADAdNetworkExtras.Type)?",
+                "printedName": "(any GoogleMobileAds.AdNetworkExtras.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "any GoogleMobileAds.GADAdNetworkExtras.Type",
+                    "printedName": "any GoogleMobileAds.AdNetworkExtras.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADAdNetworkExtras",
-                        "printedName": "GoogleMobileAds.GADAdNetworkExtras",
+                        "name": "AdNetworkExtras",
+                        "printedName": "GoogleMobileAds.AdNetworkExtras",
                         "usr": "c:objc(pl)GADAdNetworkExtras"
                       }
                     ]
@@ -313,8 +312,8 @@
           },
           {
             "kind": "Function",
-            "name": "setUpWith",
-            "printedName": "setUpWith(_:completionHandler:)",
+            "name": "setUp",
+            "printedName": "setUp(with:completionHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -323,8 +322,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADMediationServerConfiguration",
-                "printedName": "GoogleMobileAds.GADMediationServerConfiguration",
+                "name": "MediationServerConfiguration",
+                "printedName": "GoogleMobileAds.MediationServerConfiguration",
                 "usr": "c:objc(cs)GADMediationServerConfiguration"
               },
               {
@@ -356,7 +355,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@AdropAdsMediationAdmob@objc(cs)AdropGADMediation(cm)setUpWithConfiguration:completionHandler:",
-            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC9setUpWith_17completionHandlerySo0E19ServerConfigurationC_ys5Error_pSgctFZ",
+            "mangledName": "$s22AdropAdsMediationAdmob0A12GADMediationC5setUp4with17completionHandlerySo0E19ServerConfigurationC_ys5Error_pSgctFZ",
             "moduleName": "AdropAdsMediationAdmob",
             "static": true,
             "objc_name": "setUpWithConfiguration:completionHandler:",
@@ -406,24 +405,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADMediationBannerAdConfiguration",
-                "printedName": "GoogleMobileAds.GADMediationBannerAdConfiguration",
+                "name": "MediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationBannerAdConfiguration",
                 "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                "printedName": "((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationBannerAdEventDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any GoogleMobileAds.GADMediationBannerAdEventDelegate)?",
+                    "printedName": "(any GoogleMobileAds.MediationBannerAdEventDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADMediationBannerAdEventDelegate",
-                        "printedName": "any GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "name": "MediationBannerAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationBannerAdEventDelegate",
                         "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
                       }
                     ],
@@ -432,17 +431,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "((any GoogleMobileAds.GADMediationBannerAd)?, (any Swift.Error)?)",
+                    "printedName": "((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "(any GoogleMobileAds.GADMediationBannerAd)?",
+                        "printedName": "(any GoogleMobileAds.MediationBannerAd)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "GADMediationBannerAd",
-                            "printedName": "any GoogleMobileAds.GADMediationBannerAd",
+                            "name": "MediationBannerAd",
+                            "printedName": "any GoogleMobileAds.MediationBannerAd",
                             "usr": "c:objc(pl)GADMediationBannerAd"
                           }
                         ],
@@ -699,13 +698,13 @@
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropGADMediation.swift",
       "kind": "StringLiteral",
       "offset": 134,
-      "length": 7,
-      "value": "\"0.3.0\""
+      "length": 15,
+      "value": "\"0.4.0-alpha.0\""
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropGADMediation.swift",
       "kind": "BooleanLiteral",
-      "offset": 980,
+      "offset": 1071,
       "length": 5,
       "value": "false"
     }

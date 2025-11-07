@@ -7,21 +7,21 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class AdropGADRequest : GoogleMobileAds.GADRequest, GoogleMobileAds.GADAdNetworkExtras {
+@_inheritsConvenienceInitializers @objc public class AdropGADRequest : ObjectiveC.NSObject, GoogleMobileAds.AdNetworkExtras {
   @objc override dynamic public init()
   @objc public init(unitId: Swift.String, testMode: Swift.Bool = false)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class AdropGADMediation : ObjectiveC.NSObject, GoogleMobileAds.GADMediationAdapter, GoogleMobileAds.GADMediationBannerAd {
+@_inheritsConvenienceInitializers @objc public class AdropGADMediation : ObjectiveC.NSObject, GoogleMobileAds.MediationAdapter, GoogleMobileAds.MediationBannerAd {
   @objc public var view: UIKit.UIView {
     @objc get
   }
-  @objc public static func adapterVersion() -> GoogleMobileAds.GADVersionNumber
-  @objc public static func adSDKVersion() -> GoogleMobileAds.GADVersionNumber
-  @objc public static func networkExtrasClass() -> (any GoogleMobileAds.GADAdNetworkExtras.Type)?
-  @objc public static func setUpWith(_ configuration: GoogleMobileAds.GADMediationServerConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAdapterSetUpCompletionBlock)
+  @objc public static func adapterVersion() -> GoogleMobileAds.VersionNumber
+  @objc public static func adSDKVersion() -> GoogleMobileAds.VersionNumber
+  @objc public static func networkExtrasClass() -> (any GoogleMobileAds.AdNetworkExtras.Type)?
+  @objc public static func setUp(with configuration: GoogleMobileAds.MediationServerConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAdapterSetUpCompletionBlock)
   @objc required override dynamic public init()
-  @objc public func loadBanner(for adConfiguration: GoogleMobileAds.GADMediationBannerAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationBannerLoadCompletionHandler)
+  @objc public func loadBanner(for adConfiguration: GoogleMobileAds.MediationBannerAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationBannerLoadCompletionHandler)
   @objc deinit
 }
 extension AdropAdsMediationAdmob.AdropGADMediation : AdropAds.AdropBannerDelegate {
