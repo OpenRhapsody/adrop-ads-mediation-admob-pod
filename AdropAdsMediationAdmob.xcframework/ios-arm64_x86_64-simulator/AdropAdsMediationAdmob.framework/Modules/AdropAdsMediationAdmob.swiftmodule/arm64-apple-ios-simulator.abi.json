@@ -750,13 +750,13 @@
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropGADMediation.swift",
       "kind": "StringLiteral",
       "offset": 134,
-      "length": 15,
-      "value": "\"0.4.0-alpha.1\""
+      "length": 7,
+      "value": "\"0.4.0\""
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropGADMediation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1071,
+      "offset": 1063,
       "length": 5,
       "value": "false"
     }

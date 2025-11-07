@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-mediation-admob'
-  s.version          = '0.4.0-alpha.1'
+  s.version          = '0.4.0'
   s.summary          = 'Adrop ads mediation admob'
   s.homepage         = 'https://adrop.io'
   
